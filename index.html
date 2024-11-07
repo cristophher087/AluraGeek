@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <h1><span class="heart">❤❤❤</span> AluraGeek</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Products Section -->
+        <section class="products-section">
+            <h2>MIS PRODUCTOS:</h2>
+            <ul class="product-grid" data-productos>
+                <!-- <li class="product-card">
+                    <img src="./img/memoria-samsung.png" alt="Stormtrooper">
+                    <p class="product-name">Memoria 1T Samsung</p>
+                    <p class="product-price">$ 1,000</p>
+                    <button class="delete-btn">🗑️</button>
+                </li>
+                <li class="product-card">
+                    <img src="./img/tenis-newbalance.png" alt="Game Boy Classic">
+                    <p class="product-name">New Balance 530</p>
+                    <p class="product-price">$ 1,500</p>
+                    <button class="delete-btn">🗑️</button>
+                </li> -->
+                <!-- Repetir product-card según sea necesario -->
+            </ul>
+        </section>
+
+        <!-- Add Product Form -->
+        <section class="form-section">
+            <h2>AGREGAR PRODUCTO:</h2>
+            <form data-formulario>
+                <input type="text" placeholder="nombre..." data-nombre>
+                <input type="text" placeholder="precio..." data-precio>
+                <input type="text" placeholder="imagen..." data-imagen>
+                <div class="form-buttons">
+                    <button type="submit" class="submit-btn">Enviar</button>
+                    <button type="reset" class="reset-btn">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>DESARROLLADO POR CRISTOPHER VILLAVICENCIO N.</p>
+        <p>ALURA LATAM - 2024</p>
+    </footer>
+    <script src="./js/mostrarProductos.js" type="module"></script>
+    <script src="./js/crearProducto.js" type="module"></script>
+</body>
+
+</html>

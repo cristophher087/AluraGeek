@@ -1,0 +1,22 @@
+{
+  "productos": [
+    {
+      "nombre": "Memoria 1T Samsung",
+      "precio": "$1,000",
+      "imagen": "./img/memoria-samsung.png",
+      "id": "1"
+    },
+    {
+      "nombre": "New Balance 530",
+      "precio": "$1,500",
+      "imagen": "./img/tenis-newbalance.png",
+      "id": "2"
+    },
+    {
+      "id": "9d4c",
+      "nombre": "Nike Flex Control 4",
+      "precio": "$1,799",
+      "imagen": "https://www.pexels.com/es-es/foto/foto-de-zapatillas-sobre-fondo-blanco-2529148/"
+    }
+  ]
+}
