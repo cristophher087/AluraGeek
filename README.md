@@ -11,5 +11,5 @@ Este proyecto es una aplicación web básica que permite listar, agregar y elimi
 
 1. **Clona el repositorio**:
    ```bash
-   git clone https://github.com/tuusuario/proyecto-productos.git
-   cd proyecto-productos
+   git clone https://github.com/cristophher087/AluraGeek.git
+   cd AluraGeek
