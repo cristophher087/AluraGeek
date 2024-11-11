@@ -5,7 +5,7 @@ const lista = document.querySelector("[data-productos]")
 function crearCard(nombre, precio, imagen, id) {
     const producto = document.createElement("li");
     producto.className = "product-card";
-    producto.innerHTML = `<img src="${imagen}" alt="Stormtrooper">
+    producto.innerHTML = `<img src="${imagen}" alt="imagen de                                           ${nombre}">
     <p class="product-name">${nombre}</p>
     <p class="product-price">${precio}</p>
     <button class="delete-btn">🗑️</button>`;
@@ -24,12 +24,12 @@ async function listarProductos() {
     try {
         const listAPI = await conexionAPI.listarProductos();
 
-        listAPI.forEach(producto => lista.appendChild(crearCard(producto.nombre, producto.precio, producto.imagen, producto.id)));  
+        listAPI.forEach(producto => lista.appendChild(crearCard(producto.nombre, producto.precio, producto.imagen, producto.id)));
     } catch {
-        listAPI.innerHTML=`<h2 class = "mensaje_titulo">Ha ocurrido un problema con la conexion :c </h2>`;
+        listAPI.innerHTML = `<h2 class = "mensaje_titulo">Ha ocurrido un problema con la conexion :c </h2>`;
     }
-    
-    
+
+
 }
 
 listarProductos()

@@ -7,7 +7,7 @@ async function listarProductos() {
     return conexionConvertida 
 }
 
-async function enviarProducto (nombre,precio,imagen){
+async function enviarProducto (nombre,precio,imagen ,id){
     //enviarProducto función asíncrona, pero en este caso realiza una petición POST para enviar un nuevo producto al servidor
     const conexion = await fetch("http://localhost:3001/productos",{
         method:"POST",
@@ -17,7 +17,8 @@ async function enviarProducto (nombre,precio,imagen){
         ({
             nombre:nombre,
             precio:precio,
-            imagen:imagen
+            imagen:imagen,
+            id:id
         }) 
     })
     const conexionConvertida = conexion.json();

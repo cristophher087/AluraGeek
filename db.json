@@ -13,10 +13,46 @@
       "id": "2"
     },
     {
-      "id": "9d4c",
-      "nombre": "Nike Flex Control 4",
-      "precio": "$1,799",
-      "imagen": "https://www.pexels.com/es-es/foto/foto-de-zapatillas-sobre-fondo-blanco-2529148/"
+      "id": "589a",
+      "nombre": "Baraja ",
+      "precio": "$180",
+      "imagen": "./img/baraja.png"
+    },
+    {
+      "id": "f922",
+      "nombre": "Control DJI mini 2",
+      "precio": "$1,600",
+      "imagen": "./img/dj-controller.png"
+    },
+    {
+      "id": "44ff",
+      "nombre": "My Space",
+      "precio": "$850",
+      "imagen": "./img/my-space-console.png"
+    },
+    {
+      "id": "53b6",
+      "nombre": "Nintendo Switch 2024",
+      "precio": "$9,800",
+      "imagen": "./img/nintendo-switch.png"
+    },
+    {
+      "id": "d9dd",
+      "nombre": "Play Station 2 Pack",
+      "precio": "$5,600",
+      "imagen": "./img/ps2-pack.png"
+    },
+    {
+      "id": "b061",
+      "nombre": "Cubo Rubic",
+      "precio": "$450",
+      "imagen": "./img/cubo-rubic.png"
+    },
+    {
+      "id": "e96c",
+      "nombre": "Ajedrez",
+      "precio": "$650",
+      "imagen": "./img/Ajedrez.png"
     }
   ]
 }
